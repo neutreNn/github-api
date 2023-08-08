@@ -31,15 +31,19 @@ const searchGithub = async () => {
                     </div>
                     <div class="media">
                         <p>
+                            <i class="fa-solid fa-location-dot"></i>
                             <span class="media-value">${data.location || 'Not Available'}</span>
                         </p>
                         <p>
+                            <i class="fa-solid fa-pen-to-square"></i>
                             <span class="media-value">${data.blog || 'Not Available'}</span>
                         </p>
                         <p>
+                            <i class="fa-brands fa-twitter"></i>
                             <span class="media-value">${data.twitter_username || 'Not Available'}</span>
                         </p>
                         <p>
+                            <i class="fa-solid fa-building"></i>
                             <span class="media-value">${data.company || 'Not Available'}</span>
                         </p>
                     </div>
